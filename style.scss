@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+
+}
+
+.top {
+    .header {
+        background: #222222;
+        height: 75px;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            list-style-type: none;
+        }
+
+        &_left {
+            display: flex;
+        }
+
+        .search {
+            padding-top: 28px;
+            margin-left: 41px;
+        }
+
+        .logo {
+            padding-top: 18px;
+        }
+
+        &_right {
+            display: flex;
+            padding-top: 26px;
+
+            .prs {
+                margin-left: 33px;
+                margin-right: 33px;
+            }
+        }
+    }
+
+
+}
+
+
+
+.main {
+    background: #F1E4E6;
+    height: 764px;
+    background-position-x: 350px;
+    display: flex;
+    justify-content: space-around;
+
+    .banner {
+        background-image: url(images/back.png);
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .main_info {
+        align-self: center;
+        display: flex;
+        width: 50%;
+        float: right;
+        margin-top: 250px;
+
+        .info_text {
+            margin-left: 15px;
+            align-self: center;
+        }
+    }
+
+    &_info_pic {
+        align-self: center;
+    }
+}
+
+
+.middle {
+    margin: 0 auto;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+
+    .middle_top {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+    }
+
+    .middle_bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_middle {
+        margin-right: 30px;
+    }
+
+    .img_middle_left {
+        margin-right: 30px;
+    }
+}
+
+.featured_heading {
+    margin-top: 91px;
+    
+
+    .featured {
+    
+        text-align: center;
+
+        h1 {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            color: #222222;
+        }
+
+        .text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #9F9F9F;
+        }
+    }
+
+
+}
+
+.cards {
+    display: flex;
+}
